@@ -12,7 +12,7 @@ Setup python-3:
   * for debian/ubuntu ``sh sudo apt-get install python3``
   * for centos/fedora ``sh sudo yum install python3``
 
-  There are the following binaries in the archive: ``hfts_get`` and ``hfts_full`` and ``htfs_ohlc``
+  There are the following binaries in the archive:
     * ``htfs_get`` is used to download market data
     * ``htfs_full`` for level3 strategy replay
     * ``htfs_fast`` for level1 or ohlc strategy replay
