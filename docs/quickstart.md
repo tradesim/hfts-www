@@ -8,9 +8,9 @@
     
 3.
     Setup python-3:
-    * windows from https://www.python.org/downloads/
-    * for debian/ubuntu ``sh sudo apt-get install python3``
-    * for centos/fedora ``sh sudo yum install python3``
+      * windows from https://www.python.org/downloads/
+      * for debian/ubuntu ``sh sudo apt-get install python3``
+      * for centos/fedora ``sh sudo yum install python3``
 
     There are the following binaries in the archive: ``hfts_get`` and ``hfts_full`` and ``htfs_ohlc``
     * ``htfs_get`` is used to download market data
