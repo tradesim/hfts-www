@@ -793,3 +793,7 @@ textarea {
 .doc-col div ol p {
     font-size: 1em;
 }
+
+.iframe-doc {
+    width: 100%;
+}
