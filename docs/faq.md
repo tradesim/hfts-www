@@ -1,7 +1,7 @@
 ### FAQ
 1.
    - what is the difference?
-   - level3 + simulator.
+   - market data level3 + simulator.
 
 2.
    - why not MQL5?

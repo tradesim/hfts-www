@@ -799,8 +799,8 @@ textarea {
 
 .iframe-doc {
     width: 90%;
-    margin: 100px 8% 20px 5%;
-    height: 100%;
+    margin: 100px 8% 120px 5%;
+    height: 86%;
 }
 
 .info {
@@ -810,4 +810,6 @@ textarea {
     margin-top: 6%;
 }
 
-
+.info h4 {
+    padding: 10px;
+}
