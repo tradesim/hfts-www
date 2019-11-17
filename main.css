@@ -795,5 +795,7 @@ textarea {
 }
 
 .iframe-doc {
-    width: 100%;
+    width: 90%;
+    margin: 100px 8% 20px 5%;
+    height: 100%;
 }
