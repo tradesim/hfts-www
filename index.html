@@ -1,0 +1,324 @@
+<HTML>
+<HEAD>
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="fullpage/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="fullpage/fullpage.offsetSections.min.js"></script>
+    <script type="text/javascript" src="fullpage/fullpage.extensions.min.js"></script>
+</HEAD>
+<BODY>
+<img class="background" src="img/back3.jpg"/>
+<div class="icon">
+    <img style="width: 70px" src="img/logo4.png"/>
+<!--    <h6 style="padding: 0px">First</h6>-->
+<!--    <h3 style="padding: 0px" class="red">TS</h3>-->
+</div>
+    <ul id="menu">
+        <li data-menuanchor="info" class="active"><a href="#info">Info</a></li>
+        <li data-menuanchor="adv"><a href="#adv">Advantages</a></li>
+        <li data-menuanchor="price"><a href="#price">Pricing</a></li>
+        <li data-menuanchor="download"><a href="#download">Download</a></li>
+        <li data-menuanchor="docs"><a href="#docs">Docs</a></li>
+        <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+        <li id="menu-line"></li>
+    </ul>
+
+    <div id="fullpage">
+        <div class="section" data-percentage="88">
+            <h5>First</h5>
+            <h1>High Frequency <span class="red">T</span>rading <span>S</span>imulator</h1>
+            <h3>with market data subscription</h3>
+            <h3>and one click switch to <span class="red">real</span> exchange</h3>
+        </div>
+        <div class="section">
+            <div class="adv-col">
+                <div class="adv-row-pad-top"></div>
+                <div class="adv-row">
+                    <div class="adv-card">
+                        <h3>Depth of Market</h3>
+                        <p>&#9658; Full stream of orders to build Order Book</p>
+                        <p>&#9658; Competitive advantage to know about market liquidity</p>
+                        <p>&#9658; Many spend years trying to find different OHLC strategies' parameters, we will provide you full data and ability to find the best parameters fast</p>
+                        <div class="adv-card-img"><img src="img/depth.png"/></div>
+                    </div>
+                    <div class="adv-card">
+                        <h3>Performance</h3>
+                        <p>&#9658; 10^6 per second in full ticks or OHLC. Your can check 1^3 variants of parameter in a few minutes on your home-pc</p>
+                        <!--<p>&#9658; a lot of people doing it manually on other platforms, you can check 1^6 different parameters in 1 hour.</p>-->
+                        <p>&#9658; Rust language interface for top performance: no GC - no delays</p>
+                        <p>Every nanosecond is important in HFT, if python slows you down - use Rust which is 20-80x faster</p>
+                        <div class="adv-card-img"><img src="img/rust_code.png"/></div>
+                    </div>
+                    <div class="adv-card">
+                        <h3>Advanced simulation</h3>
+                        <p>&#9658; Network delay simulation with gaussian and uniform distributions</p>
+                        <p>&#9658; You can switch your strategy from playback into real life in a second</p>
+                        <div class="more"><a href="#docs">Read more in Documentation</a></div>
+                    </div>
+                    <div class="adv-card">
+                        <h3>Python integration</h3>
+                        <p>&#9658; Usefull for fast prototyping your strategy</p>
+                        <p>&#9658; Full power of python insfrastructure for your analisys: analitics libs, Machine Learning, charts</p>
+                        <p>&#9658; Easy integration with external datasources</p>
+                    </div>
+                    <!--<div class="adv-card">
+                        <p>
+                        Keras and Tensorflow models can be used for Machine Learning strategies
+                        </p>
+                    </div>-->
+                </div>
+                <!--<div class="adv-row">
+                        <div class="adv-card mission">
+                            <h3>Target</h3>
+                        </div>
+                </div>-->
+                <div class="adv-row-pad-bottom"></div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="price-col">
+                <div class="adv-row">
+                    <div class="grid-1-5">
+                        <h2>DEMO</h2>
+                        <h3><span class="uppercase">Free</span></h3>
+                        <ul>
+                            <li>HFT Simulator</li>
+                            <li>One historical day</li>
+                        </ul>
+                        <a href="" class="button">Sign Up</a>
+                    </div>
+                    <div class="grid-1-5">
+                        <h2>Start</h2>
+                        <h3><sup>$</sup>10<span class="small">/mo</span></h3>
+                        <ul>
+                            <li>HFT Simulator</li>
+                            <li>Previous week</li>
+                            <li>Limited support by E-Mail</li>
+                        </ul>
+                        <a href="" class="button">Sign Up</a>
+                    </div>
+                    <div class="grid-1-5">
+                        <h2>Basic</h2>
+                        <h3><sup>$</sup>25<span class="small">/mo</span></h3>
+                        <ul>
+                            <li>HFT Simulator</li>
+                            <li>Month of data</li>
+                            <li>Limited support by E-Mail</li>
+                        </ul>
+                        <p class="real"></p>
+                        <a href="" class="button">Sign Up</a>
+                    </div>
+                    <div class="grid-1-5">
+                        <h2>Pro</h2>
+                        <h3><sup>$</sup>40<span class="small">/mo</span></h3>
+                        <ul>
+                            <li>HFT Simulator</li>
+                            <li>Access to 1 year of data</li>
+                            <li>Option to run on real market</li>
+                            <li>Support by E-Mail</li>
+                        </ul>
+                        <p class="real"></p>
+                        <a href="" class="button">Sign Up</a>
+                    </div>
+                    <div class="grid-1-5">
+                        <h2>Enterprise</h2>
+                        <h3><span class="uppercase">*****</span></h3>
+                        <ul>
+                            <li>HFT Simulator</li>
+                            <li>Access to 1 year of data</li>
+                            <li>Option to run on real market</li>
+                            <li>Priority support</li>
+                            <li>Extensions by your request</li>
+                        </ul>
+                        <a href="" class="button">Sign Up</a>
+                    </div>
+                </div>
+                <p class="remark">
+                    * the option is for Coinbase exchange at the moment
+                </p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="os-col">
+                <div class="os-row">
+                    <div class="grid-1-3">
+                        <h2><img class="os" src="img/windows.svg"></h2>
+                        <ul>
+                            <li>Windows 10 x64</li>
+                            <li>Windows 7 x64</li>
+                        </ul>
+                        <a href="" class="button">Download</a>
+                    </div>
+                    <div class="grid-1-3">
+                        <h2><img class="os" src="img/ubuntu.svg"></h2>
+                        <ul>
+                            <li>Ubuntu 18.04 LTS</li>
+                            <li>Ubuntu 16.04 LTS</li>
+                        </ul>
+                        <a href="" class="button">Download</a>
+                    </div>
+                    <div class="grid-1-3">
+                        <h2><img class="os" src="img/centos.svg"></h2>
+                        <ul>
+                            <li>Centos 7</li>
+                            <li>Centos 8</li>
+                        </ul>
+                        <a href="" class="button">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section horizon">
+            <div class="slide" id="slide1" data-anchor="slide1">
+                <div class="doc-col">
+                    <div>
+                        <h3>Intro</h3>
+                        123
+                    </div>
+                    <div>
+                        <h3>QuickStart with Python</h3>
+                        <ol>
+                            <li>Download HF Trading Simulator from the following page: <a href="#download">download</a>
+                            <li>Unpack zip archive into local folder and navigate into it</li>
+                            <li>Setup python-3 for windows from <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>
+                                <br/>
+                            * for debian/ubuntu <code>sudo apt-get install python3</code>
+                                <br/>
+                            * for centos/fedora <code>sudo yum install python3</code>
+                            </li>
+                            <br/>
+                            There are binaries in the archive: <code>tsim_get</code> and <code>tsim_play</code>
+                            <li>run <code>tsim_get demo</code> to download free demo day</li>
+                            <br/>
+                            There are some examples in py_examples folder
+                            <li>Run <code>tsim_play -ohlc py_examples/sma_ohlc.py</code></li>
+                            <li>Report will be generated in JSON format in <code>reports</code> folder</li>
+                            <li>Run <code>tsim_play py_examples/simple_hft.py</code> for hft backtesting</li>
+                            <li>If you have real trade module and want to run it on real exchange, then:
+                                <ol>
+                                    <li>copy <code>conf/tsim_example.toml into conf/tsim.toml</code> and then edit</li>
+                                    <li><code>tsim_play -run -ohlc py_examples/simple_sma.py</code></li>
+                                </ol>
+                            </li>
+                            <li>For creating your own strategy, please move the next slide <a href="#docs/slide2">slide</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide2" data-anchor="slide2">
+                Docs
+            </div>
+        </div>
+        <div class="section">
+            <iframe class="feedback-iframe" src="about:blank" scrolling="no" frameborder="0"
+                    srcdoc='
+            <html>
+            <head>
+                <link rel="stylesheet" type="text/css" href="main.css" />
+            </head>
+            <body>
+            <form class="feedback-form"
+                  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdzv06m5qASlx-Q7ri6qXC6iAGBJF46Rza2mnSN9mylOOLcBA/formResponse"
+                  target="_self"
+                  method="post"
+                  id="mG61Hd"
+            >
+                <input id="a" name="entry.1328690858" type="text" class="feedback-input" placeholder="Name" />
+                <input name="entry.433196839" type="text" class="feedback-input" placeholder="Email" />
+                <input name="entry.649233833" type="text" class="feedback-input" placeholder="Subject" />
+                <textarea name="entry.1147633335" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" class="button" value="Send"/>
+            </form>
+            </body>
+            </html>
+            '>
+            </iframe>
+            <div class="phone">Text: +1 (919) 694-1481</div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    var s=fp_utils.$;
+    var l=s("#menu-line")[0];
+    var m = 8; <!-- the same like 2*.menu.li.style.margin-(left+right) -->
+    var n = -20;
+    var to = undefined;
+
+    function OVER(_this){
+        var e=_this.parentNode;
+        l.style.left=e.offsetLeft+m+"px";
+        l.style.width=e.offsetWidth+n+"px";
+    };
+    function OUT(_this){
+        var a=s("a[href='#"+to+"']")[0];
+        l.style.left=a.offsetLeft+m+"px";
+        l.style.width=a.offsetWidth+n+"px";
+    };
+
+    function INIT(_to) {
+
+                to = _to;
+
+                var need_init = false;
+                s("#menu li a").forEach(function(e){
+                    if(e.getAttribute('listener') !== 'true') {
+                        e.addEventListener("mouseover",function() {OVER(this)}),e.addEventListener("mouseout",function() {OUT(this)});
+                        need_init = true;
+                    }
+                });
+                if(need_init) {
+                    l.style.transition='all 600ms ease';
+                    l.style.opacity=1;
+                }
+
+                OUT(undefined);
+    }
+
+    function ANIMATION(from, to) {
+            if(from == 'price') {
+                s(".remark")[0].style.opacity = 0;
+            }
+            if(to == 'adv') {
+                s(".adv-row-pad-top")[0].style.flex = '1';
+                s(".adv-card > h3").forEach(function (e) {
+                    e.style['margin-bottom'] = '10px'
+                });;
+            } else if(to == 'info') {
+                s(".adv-row-pad-top")[0].style.flex = '0';
+                s(".adv-card > h3").forEach(function (e) {
+                    e.style['margin-bottom'] = '20%'
+                });;
+            }
+    }
+
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['info', 'adv', 'price', 'download', 'docs', 'contact'],
+        menu: '#menu',
+        navigation: true,
+        slidesNavigation: true,
+        scrollBar: false,
+        licenseKey: '77D4D2A9-9DCF48AB-8A7A69F7-C5C395CF',
+        offsetSections: true,
+        onLeave: function(origin, destination, direction) {
+            INIT(destination.anchor);
+            ANIMATION(origin.anchor, destination.anchor);
+        },
+        afterLoad: function(origin, destination, direction) {
+            INIT(destination.anchor);
+
+            if(to == 'price') {
+                s(".remark")[0].style.opacity = 1;
+            }
+        },
+    });
+
+<!--    var d = s("a[href='#download']")[0];-->
+<!--    d.addEventListener("mouseover", function() {-->
+<!--        s(".submenu")[0].style.visibility = 'visible';-->
+<!--    });-->
+<!--    d.addEventListener("mouseout", function() {-->
+<!--        s(".submenu")[0].style.visibility = 'hidden';-->
+<!--    });-->
+</script>
+</BODY>
+</HTML>
