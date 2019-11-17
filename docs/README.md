@@ -1,3 +1,3 @@
 ## High-Frequency Trading Simulator Documentation
 
-### [Quickstart](quickstart.md)
+### [Quickstart](quickstart)
