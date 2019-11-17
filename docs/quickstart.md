@@ -7,8 +7,9 @@
     Unpack zip archive into local folder and navigate into it
     
 3.
-Setup python-3:
+Setup python-3 **x86-64**:
   * windows from https://www.python.org/downloads/
+    * find ``python`` execution and create ``python3`` copy
   * for debian/ubuntu ``sh sudo apt-get install python3``
   * for centos/fedora ``sh sudo yum install python3``
 
