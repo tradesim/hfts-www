@@ -2,8 +2,10 @@
 
 1.
     Download HF Trading Simulator from the following page: [http://tradesim.org/#download]()
+    
 2.
     Unpack zip archive into local folder and navigate into it
+    
 3.
     Setup python-3:
     * windows from https://www.python.org/downloads/
